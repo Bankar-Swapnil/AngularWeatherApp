@@ -5,12 +5,18 @@
 export const environment = {
   production: true,
   firebase: {
-      weatherApiBaseUrl: 'https://community-open-weather-map.p.rapidapi.com/weather',
-      XRapidAPIHostHeaderName: 'X-RapidAPI-Host',
-      XRapidAPIHostHeaderValue: 'community-open-weather-map.p.rapidapi.com',
-      XRapidAPIKeyHeaderName: 'X-RapidAPI-Key',
-      XRapidAPIKeyHeaderValue: 'cd35a02fd0msh35e22914ac35b9ep123ef8jsnb4da4b1f715a'
-  }
+    apiKey: "...",
+    authDomain: "project.firebaseapp.com",
+    databaseURL: "https://project.firebaseio.com",
+    projectId: "project",
+    storageBucket: "project.appspot.com",
+    messagingSenderId: "..."
+  },
+  weatherApiBaseUrl: 'https://community-open-weather-map.p.rapidapi.com/weather',
+  XRapidAPIHostHeaderName: 'X-RapidAPI-Host',
+  XRapidAPIHostHeaderValue: 'community-open-weather-map.p.rapidapi.com',
+  XRapidAPIKeyHeaderName: 'X-RapidAPI-Key',
+  XRapidAPIKeyHeaderValue: 'cd35a02fd0msh35e22914ac35b9ep123ef8jsnb4da4b1f715a'
 };
 
 /*
